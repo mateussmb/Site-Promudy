@@ -1,0 +1,295 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#busca {
+    width: 2%;
+    margin-right: 55px;
+    float: right;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#logo
+{
+    
+    position: absolute;
+    top: -5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+  #teste
+{
+   position: absolute;
+    margin-top: -48px;
+    margin-left: 80px;
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 4px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    
+}
+
+
+
+#cabe
+ {
+background-color: #4B0082;
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+#menu ul
+{
+
+list-style: none;
+display: flex;
+height: 60px;
+width: 30%;
+margin-left: 58%;
+}
+#menu ul li
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    transition: 0.75;
+    margin-bottom: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+#menu ul li:hover
+{
+    border-bottom: solid white 5px;
+}
+#menu ul li a 
+{
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    color: white;
+}
+@media screen and (max-width: 800px)
+{
+    #teste
+    {
+        font-size: 15pt;
+        margin-top: -30px;
+        position: fixed;
+        left: -500%;
+
+    }
+
+    #teste:hover ~ #logoname
+    {
+         left: 0;
+    }
+
+    #menu ul 
+    {
+        margin-left: 90px;
+    } 
+    #menu ul li
+    {
+        margin-left: 2px;
+    }
+
+    #busca {
+        width: 4%;
+        margin-right: 18px;
+        float: right;
+        margin-top: -30px;
+        cursor: pointer;
+    }
+
+}
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+#desenvolvedores h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.card_desenvolvedor1 {
+    background-color:white ;
+    height: 300px;
+    width: 300px;
+    margin-left: 20%;
+    border-radius: 50% ;
+    box-shadow: 1px 6px 12px black;
+    
+  
+
+}
+
+.card_desenvolvedor2 {
+    float: right;
+    background-color:white ;
+    margin-right: 20%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50% ;
+    box-shadow: 1px 6px 12px black;
+    margin-top: -298px;
+  
+
+}
+
+.card_desenvolvedor1 img {
+    width: 70%;
+    height: 70%;
+    margin-left: 47px;
+    margin-top: 17px;
+}
+
+.card_desenvolvedor2 img {
+    width: 70%;
+    height: 70%;
+    margin-left: 47px;
+    margin-top: 17px;
+}
+
+.card_desenvolvedor1 figcaption {
+    font-family: 'Lobster', cursive;
+    margin-left: 75px;
+}
+
+.card_desenvolvedor2 figcaption {
+    font-family: 'Lobster', cursive;
+    margin-left: 75px;
+}
+
+#nosso_Proposito h1 {
+    font-size: 40px;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+    
+}
+
+
+#nosso_Proposito p {
+    text-align:center;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .card_desenvolvedor1 {
+        background-color:white ;
+        height: 300px;
+        width: 300px;
+        margin-left: 25%;
+        border-radius: 50% ;
+        box-shadow: 1px 6px 12px black;
+        
+      
+    
+    }
+
+    .card_desenvolvedor2 {
+        float: left;
+        background-color:white ;
+        margin-left: 25%;
+        height: 300px;
+        width: 300px;
+        border-radius: 50% ;
+        box-shadow: 1px 6px 12px black;
+        margin-top: 40px;
+      
+    margin-top: 30px;
+    }
+}
+
+
+
+
+#rodape {
+    background-color: #1c1c1d;
+    clear: both;
+    height: 80px;
+    margin-top: 100px;
+    
+    
+    
+}
+.grupos-icones {
+    display: flex;
+   margin-left: 43%;
+   
+   
+}
+
+.icones  {
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textorodape ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: -60px;
+    margin-left: 28px;
+    color: grey;
+    font-size: 80%;
+    cursor: pointer;
+   
+}
+
+.grupos-icones > p {
+    font-size: 15px;
+    float: right;
+    margin-left: 30px;
+    color: rgb(71, 70, 70);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #rodape {
+        background-color: #1c1c1d;
+        clear: both;
+        height: 100px;
+        margin-top: 100px;
+        
+    }
+    .grupos-icones {
+        display: flex;
+       margin-left: 3%;
+       
+    }
+
+    .icones  {
+        margin: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .textorodape ul li {
+        margin: 0;
+        padding: 0;
+        margin-top: -80px;
+        margin-left: 28px;
+        color: grey;
+        font-size: 80%;
+        cursor: pointer;
+       
+    }
+}

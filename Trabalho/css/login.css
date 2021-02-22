@@ -1,0 +1,272 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#busca {
+    width: 2%;
+    margin-right: 55px;
+    float: right;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#logo
+{
+    
+    position: absolute;
+    top: -5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+  #teste
+{
+   position: absolute;
+    margin-top: -48px;
+    margin-left: 80px;
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 4px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    
+}
+
+
+
+#cabe
+ {
+background-color: #4B0082;
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+#menu ul
+{
+
+list-style: none;
+display: flex;
+height: 60px;
+width: 30%;
+margin-left: 58%;
+}
+#menu ul li
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    transition: 0.75;
+    margin-bottom: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+#menu ul li:hover
+{
+    border-bottom: solid white 5px;
+}
+#menu ul li a 
+{
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    color: white;
+}
+@media screen and (max-width: 800px)
+{
+    #teste
+    {
+        font-size: 15pt;
+        margin-top: -30px;
+        position: fixed;
+        left: -500%;
+
+    }
+
+    #teste:hover ~ #logoname
+    {
+         left: 0;
+    }
+
+    #menu ul 
+    {
+        margin-left: 90px;
+    } 
+    #menu ul li
+    {
+        margin-left: 2px;
+    }
+
+    #busca {
+        width: 4%;
+        margin-right: 18px;
+        float: right;
+        margin-top: -30px;
+        cursor: pointer;
+    }
+}
+
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.form1 {
+    float:left;
+    width: 500px;
+    margin-left: 50px;
+    padding-top: 80px;
+    
+}
+#imglog {
+    width: 60%;
+    border-radius: 6px;
+    margin-left: 82px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+   
+}
+.card {
+    box-shadow: 1px 1px 12px #ccc;
+    background-color: white;
+    padding: 25px;
+    
+}
+
+.topocard {
+    text-align: center;
+    margin-top: -10px;
+}
+
+#titulo {
+    color: #4B0082;
+    text-align: center;
+}
+
+.cardgrupo > label {
+    width: 100%;
+    color: rgb(7, 7, 7);
+    display: block;
+}
+
+.cardgrupo > input {
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    border-style: solid ;
+}
+
+.cardgrupo {
+    margin-bottom: 10px;
+}
+
+.cardgrupo > button {
+    background-image: linear-gradient(to right,#B8860B,#493502 );
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    height: 60px;
+}
+
+.formcadastro {
+    float:right;
+    width: 500px;
+    margin-right: 80px;
+    padding-top: 80px;
+}
+
+button:active
+{
+    position:relative;
+    top: 1px;
+    box-shadow: none;
+}
+   
+#rodape {
+    background-color: #1c1c1d;
+    clear: both;
+    height: 80px;
+    margin-top: 600px;
+    
+}
+.grupos-icones {
+    display: flex;
+   margin-left: 43%;
+   
+   
+}
+
+.icones  {
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textorodape ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: -60px;
+    margin-left: 28px;
+    color: grey;
+    font-size: 80%;
+    cursor: pointer;
+   
+}
+
+.grupos-icones > p {
+    font-size: 15px;
+    float: right;
+    margin-left: 30px;
+    color: rgb(71, 70, 70);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #rodape {
+        background-color: #1c1c1d;
+        clear: both;
+        height: 100px;
+        margin-top: 100px;
+        
+    }
+    .grupos-icones {
+        display: flex;
+       margin-left: 3%;
+       
+    }
+
+    .icones  {
+        margin: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .textorodape ul li {
+        margin: 0;
+        padding: 0;
+        margin-top: -80px;
+        margin-left: 28px;
+        color: grey;
+        font-size: 80%;
+        cursor: pointer;
+       
+    }
+}

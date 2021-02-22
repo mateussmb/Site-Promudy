@@ -1,0 +1,372 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#busca {
+    width: 2%;
+    margin-right: 55px;
+    float: right;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#logo
+{
+    
+    position: absolute;
+    top: -5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+  #teste
+{
+   position: absolute;
+    margin-top: -48px;
+    margin-left: 80px;
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 4px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    
+}
+
+
+
+#cabe
+ {
+background-color: #4B0082;
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+#menu ul
+{
+
+list-style: none;
+display: flex;
+height: 60px;
+width: 30%;
+margin-left: 58%;
+}
+#menu ul li
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    transition: 0.75;
+    margin-bottom: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+#menu ul li:hover
+{
+    border-bottom: solid white 5px;
+}
+#menu ul li a 
+{
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    color: white;
+}
+@media screen and (max-width: 800px)
+{
+    #teste
+    {
+        font-size: 15pt;
+        margin-top: -30px;
+        position: fixed;
+        left: -500%;
+
+    }
+
+    #teste:hover ~ #logoname
+    {
+         left: 0;
+    }
+
+    #menu ul 
+    {
+        margin-left: 90px;
+    } 
+    #menu ul li
+    {
+        margin-left: 2px;
+    }
+
+    #busca {
+        width: 4%;
+        margin-right: 18px;
+        float: right;
+        margin-top: -30px;
+        cursor: pointer;
+    }
+}
+#banner_superior {
+    margin-top: 20px ;
+    margin-left: 10%;
+    
+}
+
+#banner_superior img {
+    border-radius: 5px 50px;
+    
+}
+
+body {
+    background-color:  #f0f0f0;
+}
+
+
+#background_produto {
+    width: 90%;
+    height: 90%;
+    
+    margin-left: 4.5%;
+}
+
+#conteudo_produtos
+{
+margin-left: 7%;
+margin-top: 0px;
+padding: 30px;
+ 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.caixa
+{
+    border-style: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    background-color: white;
+    margin-left: 65px; 
+    
+    width: 200px; 
+    height: 300px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.8;
+    margin-top: 30px;
+}
+.caixa:hover
+
+{
+ box-shadow: 1px 2px 10px; 
+  background-image: linear-gradient(white,white,white,white,rgba(0,0,0,0.2));
+}
+
+
+.cxfoto
+{
+    background-color: white;
+    margin-left: 2.5px;
+    width: 190px;
+    height: 180px;
+    padding-bottom: 1px;
+    border-bottom: 1px black solid;
+    margin-top: 8px;
+}
+.cxfoto img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cxtexto h1 {
+    text-align: center;
+    font-size: 15pt;
+    font-style: sans-serif;
+    color: black;
+}
+
+.cxtexto h2 {
+    text-align: center;
+    font-size: 22pt;
+    font-style: sans-serif;
+    color: #000000;
+}
+
+.bcomprar
+{
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right,#B8860B,#493502 );
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px;
+    position: relative;
+    top: 100px;
+    left: 45px;
+}
+
+#Banner_promo_codes  {
+    margin-left: 30%;
+}
+
+#Banner_promo_codes img {
+    width: 600px;
+    height: 360px;
+}
+
+.caixa_promo {
+    margin: 15%;
+    display: block;
+    border-left: ridge; 
+    border-right: ridge;
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.cxfoto_promo {
+    margin-left: 15px;
+    width: 130px;
+    height: 40px;
+    
+}
+
+.cxfoto_promo img{
+    width: 120px;
+    height: 120px;
+}
+
+.cxtexto_promo {
+    
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: -30px;
+}
+
+.cxtexto_promo h2 {
+    
+    text-align: center;
+    font-size: 25pt;
+}
+
+.cxtexto_promo h3 {
+    text-align: center;
+    font-size: 25pt;
+    color: orange;
+}
+
+.cxtexto_promo p {
+    text-align: center;
+    font-size: 20pt;
+    border-style: dotted dashed solid double;
+    
+}
+@media screen and (max-width: 800px) 
+{
+    .caixa
+    {
+        margin-left: 90px;
+    }
+
+    #banner_superior {
+        margin-top: 20px ;
+        margin-left: 15%;
+        
+        
+    }
+
+    #banner_superior img {
+        
+        width: 400px;
+        height: 200px;
+        
+    }
+}
+
+#rodape {
+    background-color: #1c1c1d;
+    clear: both;
+    height: 80px;
+    margin-top: 250px;
+    
+}
+.grupos-icones {
+    display: flex;
+   margin-left: 43%;
+   
+   
+}
+
+.icones  {
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textorodape ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    margin-left: 28px;
+    color: grey;
+    font-size: 80%;
+    cursor: pointer;
+   
+}
+
+.grupos-icones > p {
+    font-size: 15px;
+    float: right;
+    margin-left: 30px;
+    color: rgb(71, 70, 70);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #rodape {
+        background-color: #1c1c1d;
+        clear: both;
+        height: 100px;
+        margin-top: 800px;
+        
+    }
+    .grupos-icones {
+        display: flex;
+       margin-left: 3%;
+       
+    }
+
+    .icones  {
+        margin: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .textorodape ul li {
+        margin: 0;
+        padding: 0;
+        margin-top: -80px;
+        margin-left: 28px;
+        color: grey;
+        font-size: 80%;
+        cursor: pointer;
+       
+    }
+
+   
+    
+}

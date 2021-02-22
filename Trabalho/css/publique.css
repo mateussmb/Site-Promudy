@@ -1,0 +1,366 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#busca {
+    width: 2%;
+    margin-right: 55px;
+    float: right;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#logo
+{
+    
+    position: absolute;
+    top: -5px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+}
+  #teste
+{
+   position: absolute;
+    margin-top: -48px;
+    margin-left: 80px;
+    color: white;
+    font-size: 30pt;
+    letter-spacing: 4px;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    
+}
+
+
+
+#cabe
+ {
+background-color: #4B0082;
+width: 100%;
+height: 80px;
+
+}
+
+
+
+
+#menu ul
+{
+
+list-style: none;
+display: flex;
+height: 60px;
+width: 30%;
+margin-left: 58%;
+}
+#menu ul li
+{
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    transition: 0.75;
+    margin-bottom: 3px;
+    font-family: 'Playfair Display', serif;
+
+}
+#menu ul li:hover
+{
+    border-bottom: solid white 5px;
+}
+#menu ul li a 
+{
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    color: white;
+}
+@media screen and (max-width: 800px)
+{
+    #teste
+    {
+        font-size: 15pt;
+        margin-top: -30px;
+        position: fixed;
+        left: -500%;
+
+    }
+
+    #teste:hover ~ #logoname
+    {
+         left: 0;
+    }
+
+    #menu ul 
+    {
+        margin-left: 90px;
+    } 
+    #menu ul li
+    {
+        margin-left: 2px;
+    }
+
+    #busca {
+        width: 4%;
+        margin-right: 18px;
+        float: right;
+        margin-top: -30px;
+        cursor: pointer;
+    }
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.formulario {
+    float: left;
+    width: 1200px;
+    margin-left: 50px;
+    padding-top: 80px;
+    box-shadow: 1px 1px 12px #ccc;
+    background-color: white;
+    padding: 25px;
+    height: 530px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.topo h2 {
+    text-align: center;
+    color: #B8860B;
+}
+
+.grupos > label {
+    width: 100%;
+    color: black;
+    display: block;
+}
+
+
+#titulo {
+    border-radius: 5px;
+    outline:none;
+    height: 50px;
+    width: 40%;
+    
+}
+
+.preco {
+    border-radius: 5px;
+    outline:none;
+    height: 30px;
+    width: 15%;
+    
+    
+}
+
+#descricao {
+    border-radius: 5px;
+    outline:none;
+    height: 100px;
+    width: 40%;
+    display: block;
+}
+
+.grupos {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.grupos button {
+    border-radius: 30px;
+    outline:none;
+    height: 60px;
+    width: 30%;
+    margin-left: 60px;
+    color: white;
+    background-image: linear-gradient(to right,#B8860B,#493502 );
+    cursor: pointer;
+    border: none;
+    font-size: 15pt;
+}
+
+ 
+
+.grupos input {
+    border-style: solid;
+}
+
+.img {
+    float: right;
+    margin-right: 80px;
+    margin-top: -520px;
+    
+}
+
+.enviarimg {
+    float: right;
+    margin-right: 90px;
+    margin-top: -322px;  
+    font-size: 18pt;
+} 
+input[type="file"] {
+    display: none;
+}
+
+.parte-esquerda label {
+    padding: 6px 1px;
+    width: 200px;
+    margin-right: 35px;
+    border-radius: 30px;
+    text-size-adjust: 3%;
+    color:#B8860B;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+    .formulario {
+        float: left;
+        width: 410px;
+        margin-left: 15px;
+        padding-top: 80px;
+        box-shadow: 1px 1px 12px #ccc;
+        background-color: white;
+        height: 530px;
+        margin-top: 90px;
+        position: relative;
+    }
+    .topo h2 {
+        text-align: left;
+        color: #B8860B;
+    }
+
+    .img {
+        float: left;
+        margin-left: 180px;
+        margin-top: -400px;
+        width: 40%;
+        
+    }
+    .enviarimg {
+        float: left;
+        margin-left: 160px;
+        margin-top: -290px;  
+        font-size: 10pt;
+    } 
+
+    .preco {
+        border-radius: 5px;
+        outline:none;
+        height: 30px;
+        width: 30%;
+        
+    }
+
+    #titulo {
+        border-radius: 5px;
+        outline:none;
+        height: 50px;
+        width: 80%;
+        
+    }
+
+    #descricao {
+        border-radius: 5px;
+        outline:none;
+        height: 100px;
+        width: 80%;
+        display: block;
+    }
+
+    .grupos button {
+        border-radius: 30px;
+        outline:none;
+        height: 60px;
+        width: 30%;
+        margin-left: 100px;
+        color: white;
+        background-image: linear-gradient(to right,#B8860B,#493502 );
+        cursor: pointer;
+        border: none;
+        font-size: 15pt;
+    }
+    
+    
+}
+
+#rodape {
+    background-color: #1c1c1d;
+    clear: both;
+    height: 80px;
+    margin-top: 800px;
+    
+}
+.grupos-icones {
+    display: flex;
+   margin-left: 43%;
+   
+   
+}
+
+.icones  {
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.textorodape ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: -50px;
+    margin-left: 28px;
+    color: grey;
+    font-size: 80%;
+    cursor: pointer;
+   
+}
+
+.grupos-icones > p {
+    font-size: 15px;
+    float: right;
+    margin-left: 30px;
+    color: rgb(71, 70, 70);
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+
+    #rodape {
+        background-color: #1c1c1d;
+        clear: both;
+        height: 100px;
+        margin-top: 800px;
+        
+    }
+    .grupos-icones {
+        display: flex;
+       margin-left: 3%;
+       
+    }
+
+    .icones  {
+        margin: 5px;
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .textorodape ul li {
+        margin: 0;
+        padding: 0;
+        margin-top: -80px;
+        margin-left: 28px;
+        color: grey;
+        font-size: 80%;
+        cursor: pointer;
+       
+    }
+}
