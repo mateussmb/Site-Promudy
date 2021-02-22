@@ -53,7 +53,7 @@
     <div class="sobre_nos">
         
         <div id="desenvolvedores">
-            <h2>Desenvolvedores</h2>
+            <h2>Desenvolvedor</h2>
         </div>
         
         <div class="card_desenvolvedor1">
@@ -63,7 +63,7 @@
         
         <div class="card_desenvolvedor2">
             <img src="midia/avatar.png">
-            <figcaption >Jedson Ferreira</figcaption>
+            <figcaption > N/A</figcaption>
 
             
         </div>
